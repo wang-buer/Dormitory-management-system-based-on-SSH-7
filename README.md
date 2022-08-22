@@ -1,6 +1,13 @@
-# 基于SSH的宿舍管理系统7
+# 基于SSH的宿舍管理系统
 
-#### 介绍
+## 获取方式
+
+扫描下方，回复关键词  ：**宿舍7** ，获取完整版源码
+
+![https://gitee.com/](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205281253739.png)
+
+## 1、项目介绍
+
 基于SSH的宿舍管理系统7分为系统管理员、楼宇管理员、学生三种权限
 
 - 系统管理员：宿舍管理、学生管理、楼宇管理、缺寝管理、寝室管理、迁出迁入管理、设置楼宇公管理员等
@@ -9,35 +16,84 @@
 
 - 学生：缺勤记录查询确认、申请宿舍调换、申请宿舍迁出等
 
-#### 软件架构
-软件架构说明
+  ![项目结构图](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207301906812.png)
 
 
-#### 安装教程
+## 2、项目技术
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+后端框架：SSH（struts+spring+hibernates）
 
-#### 使用说明
+前端技术：Easyui、jsp、css、JavaScript、JQuery
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## 3、开发环境
 
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+- JAVA版本：JDK1.8
+- IDE类型：IDEA、Eclipse都可运行
+- tomcat版本：Tomcat 7-10版本均可
+- 数据库类型：MySql（5.x和8.x版本都可） 
+- 硬件环境：Windows 或者 Mac OS
 
 
-#### 特技
+## 4、功能介绍
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+### 4.1 登录
+
+![登录](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207301905227.jpg)
+
+### 4.2 管理员模块
+
+![管理员功能结构图](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207301905141.png)
+
+![管理员首页](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207301905474.jpg)
+
+![管理员-楼宇管理员信息管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207301905760.jpg)
+
+![管理员-寝室管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207301905355.jpg)
+
+![管理员-宿舍管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207301905945.jpg)
+
+![管理员-学生基本信息](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207301905514.jpg)
+
+![管理员-设置楼宇管理员](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207301905604.jpg)
+
+![管理员-迁出记录](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207301905213.jpg)
+
+![管理员-缺寝记录](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207301905036.jpg)
+
+### 4.3 楼宇管理员模块
+
+![楼宇管理员功能结构图](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207301906084.png)
+
+![楼宇管理员-宿舍管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207301906893.jpg)
+
+![](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207301906119.jpeg)
+
+![楼宇管理员-学生基本信息管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207301906364.jpg)
+
+![楼宇管理员-迁出和缺寝记录](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207301906998.jpg)
+
+![楼宇管理员-学生缺寝登记](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207301906914.jpg)
+
+![楼宇管理员-学生入住登记](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207301907905.jpg)
+
+### 4.4学生 模块
+
+![学生功能结构图](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207301906787.png)
+
+![学生-缺寝记录](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207301906029.jpg)
+
+![学生-申请宿舍调换](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207301906205.jpg)
+
+### 4.5 文档目录
+
+![文档目录](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207301906863.jpg)
+
+
+## 5、获取方式
+
+扫描下方，回复关键词  ：**宿舍7** ，获取完整版源码
+
+
+
+![https://gitee.com/](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205281253739.png)
+
